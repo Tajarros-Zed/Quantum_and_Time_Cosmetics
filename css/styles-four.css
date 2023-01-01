@@ -1,0 +1,1357 @@
+#right-side {
+    background-color: #ffb805;
+    width: 20%;
+    height: 213em;
+    position: absolute;
+    left: 80%;
+    box-shadow: 0 0 20px #ffb805;
+    z-index: 1;
+}
+
+#left-side {
+    background-color: #ffb805;
+    width: 20%;
+    height: 213em;
+    position: absolute;
+    box-shadow: 0 0 20px #ffb805;
+    z-index: 1;
+}
+
+#middle-side {
+    background-color: #101010;
+    width: 60%;
+    height: 213em;
+    position: absolute;
+    left: 20%;
+}
+
+/* FIRST ARTICLE  */
+.one-article {
+    padding: 2em;
+    display: inline-block;
+    position: absolute;
+    top: 2em;
+    width: 90%;
+    left: 4%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(235, 233, 233, 0.426);
+}
+
+.one-title {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.one-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* SECOND ARTICLE */
+.two-article {
+    padding: 2em;
+    display: inline-block;
+    position: absolute;
+    top: 55em;
+    width: 90%;
+    left: 4%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(235, 233, 233, 0.426);
+}
+
+.two-title {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.two-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* THIRD ARTICLE  */
+.three-article {
+    padding: 2em;
+    display: inline-block;
+    position: absolute;
+    top: 107em;
+    width: 90%;
+    left: 4%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(235, 233, 233, 0.426);
+}
+
+.three-title {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.three-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* FOURTH ARTICLE */
+.four-article {
+    padding: 2em;
+    display: inline-block;
+    position: absolute;
+    top: 160em;
+    width: 90%;
+    left: 4%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(235, 233, 233, 0.426);
+}
+
+.four-title {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.four-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* RECENT ARTICLES */
+.head-left {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 2em;
+    animation: shine 5s infinite;
+    animation-iteration-count: 9999;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+}
+
+/* ONE RECENT ARTICLE */
+.one-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 5em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.one-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-one {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.one-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -29.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.one-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.one-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* SECOND ARTICLE */
+.two-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 16em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.two-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-two {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.two-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -3.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.two-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.two-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* THIRD ARTICLE */
+.three-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 28em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.three-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-three {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.three-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -29.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.three-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.three-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* FOUR ARTICLES  */
+.four-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 39em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.four-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-four {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.four-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -3.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.four-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.four-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* FIVE ARTICLES  */
+.five-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 52em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.five-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-five {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.five-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -27.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.five-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.five-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* SIX ARTICLES  */
+.six-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 62em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.six-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-six {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.six-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -2.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.six-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.six-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* SEVEN ARTICLES  */
+.seven-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 73.5em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.seven-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-seven {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.seven-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -29.5em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.seven-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.seven-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* EIGHT ARTICLES  */
+.eight-recent {
+    height: 15em;
+    width: 87%;
+    position: relative;
+    top: 85em;
+    left: 5%;
+    padding: 3%;
+    display: inline-block;
+    background-color: #10101000;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px #101010;
+}
+
+.eight-title-recent {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #101010;
+}
+
+.btn-recent-eight {
+    color: #101010;
+    background-color: #10101000;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0;
+    padding: 3%;
+    position: relative;
+    left: 25%;
+    bottom: 0.3em;
+}
+
+.eight-recent-collapse {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    left: 131%;
+    bottom: -3em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.eight-title-recentt {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.eight-recent-text {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+
+/* *****************************************        PACKAGE DEALS       ******************************************************************** */
+#package-sect {
+    width: 100%;
+    height: 15em;
+    background-color: whitesmoke;
+}
+
+.package-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 2em;
+    letter-spacing: 8px;
+    color: #101010;
+    text-shadow: 0 0 20px #101010;
+}
+
+#package-deals {
+    width: 100%;
+    background-color: #101010;
+    height: 130em;
+}
+
+/* ***************************** FIRST PACKAGE DEALS ****************** */
+.horizontal-one {
+    width: 90%;
+    height: 0.2em;
+    background-color: #ffb805;
+    position: relative;
+    left: 5%;
+    top: 6em;
+}
+
+.pack-one img {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: 8em;
+    left: 5%;
+    animation: shine 1.5s infinite;
+    animation-iteration-count: 9999;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    filter: brightness(130%);
+}
+
+.pack-one img:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    transition: .8s;
+    filter: brightness(140%);
+}
+
+.pack-one-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    width: 55%;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    color: whitesmoke;
+    position: relative;
+    bottom: 6em;
+    left: 38%;
+}
+
+.btn-packone {
+    position: relative;
+    left: 38%;
+    bottom: 6em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.rarebeauty-pack {
+    width: 50%;
+    height: 37em;
+    position: absolute;
+    left: 48%;
+    top: 55.2em;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+.rareboty img {
+    width: 60%;
+    position: relative;
+    top: -5em;
+    left: -1em;
+}
+
+.rarebotys img {
+    width: 60%;
+    position: relative;
+    top: -5em;
+    left: -1em;
+}
+
+.rarebotysm img {
+    width: 60%;
+    position: relative;
+    top: -2.5em;
+    left: -2em;
+}
+
+.rarebotysmm img {
+    width: 60%;
+    position: relative;
+    top: -3em;
+    left: -2.7em;
+}
+
+.rare-desc{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 27em;
+    top: -29em;
+    width: 17%;
+    display: inline-block;
+}
+
+.rare-desc-one {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    position: relative;
+    left: 34em;
+    top: -35em;
+    letter-spacing: 1.2px;
+    line-height: 3;
+    width: 40%;
+}
+
+.rare-descq-one {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    position: relative;
+    top: -27em;
+    left: 2em;
+}
+
+.rare-descw-one {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    position: relative;
+    top: -30em;
+    left: 2.4em;
+    width: 90%;
+    text-align: justify;
+}
+
+/* ***************************** SECOND PACKAGE DEALS ****************** */
+.horizontal-two {
+    width: 90%;
+    height: 0.2em;
+    background-color: #ffb805;
+    position: relative;
+    left: 5%;
+}
+
+.pack-two img {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: 3em;
+    left: 5%;
+    animation: zoom 4.5s;
+    animation-iteration-count: 9999;
+}
+
+.pack-two-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    width: 55%;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    color: whitesmoke;
+    position: relative;
+    bottom: 11em;
+    left: 38%;
+}
+
+.btn-packtwo {
+    position: relative;
+    left: 38%;
+    bottom: 12em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.dedahlia-pack {
+    width: 50%;
+    height: 38em;
+    position: absolute;
+    left: 48%;
+    top: 76.2em;
+    z-index: 1;
+}
+
+/* ***************************** THIRD PACKAGE DEALS ****************** */
+.horizontal-three {
+    width: 90%;
+    height: 0.2em;
+    background-color: #ffb805;
+    position: relative;
+    left: 5%;
+    bottom: 6em;
+}
+
+.pack-three img {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    bottom: 2.5em;
+    animation: shine 1.5s infinite;
+    animation-iteration-count: 9999;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    filter: brightness(110%);
+}
+
+.pack-three img:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    transition: .8s;
+    filter: brightness(120%);
+}
+
+.pack-three-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    width: 55%;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    color: whitesmoke;
+    position: relative;
+    bottom: 15em;
+    left: 38%;
+}
+
+.btn-packthree {
+    position: relative;
+    left: 38%;
+    bottom: 16em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.nars-pack {
+    width: 50%;
+    height: 38em;
+    position: absolute;
+    left: 48%;
+    top: 101.2em;
+    z-index: 1;
+}
+
+/* ***************************** FOURTH PACKAGE DEALS ****************** */
+.horizontal-four {
+    width: 90%;
+    height: 0.2em;
+    background-color: #ffb805;
+    position: relative;
+    left: 5%;
+    bottom: 10em;
+}
+
+.pack-four img {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    bottom: 6.3em;
+    animation: zoom 4.5s;
+    animation-iteration-count: 9999;
+}
+
+.pack-four-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    width: 55%;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    color: whitesmoke;
+    position: relative;
+    bottom: 18.5em;
+    left: 38%;
+}
+
+.btn-packfour {
+    position: relative;
+    left: 38%;
+    bottom: 21em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.fenty-pack {
+    width: 50%;
+    height: 39em;
+    position: absolute;
+    left: 48%;
+    top: 126.2em;
+    z-index: 1;
+}
+
+/* ***************************** FIFTH PACKAGE DEALS ****************** */
+.horizontal-five {
+    width: 90%;
+    height: 0.2em;
+    background-color: #ffb805;
+    position: relative;
+    left: 5%;
+    bottom: 15em;
+}
+
+.pack-five img {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    bottom: 11.3em;
+    animation: shine 1.5s infinite;
+    animation-iteration-count: 9999;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    filter: brightness(110%);
+}
+
+.pack-five img:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    transition: .8s;
+    filter: brightness(120%);
+}
+
+.pack-five-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    width: 55%;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    color: whitesmoke;
+    position: relative;
+    bottom: 22.5em;
+    left: 38%;
+}
+
+.btn-packfive {
+    position: relative;
+    left: 38%;
+    bottom: 26.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.anastasia-pack {
+    width: 50%;
+    height: 39em;
+    position: absolute;
+    left: 48%;
+    top: 151.2em;
+    z-index: 1;
+}
+
+
+/* ***************************************      FOOTER PACKAGE DEALS       ****************************************************** */
+#footer-package {
+    width: 100%;
+    height: 17em;
+    background-color: #ffb805;
+}
+
+.package-head-foot {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    top: 2.5em;
+    left: 5%;
+    letter-spacing: 2px;
+}
+
+.package-text-foot {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 4em;
+    letter-spacing: 1px;
+}
+
+/* ************************************** FOOTER MAIN PACKAGE DEALS **************************************************** */
+#zed-foot-arti {
+    width: 100%;
+    background-color: #101010;
+    height: 20em;
+    position: absolute;
+    top: 248.3em;
+}
+
+.footer-header-article {
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: -1em;
+    letter-spacing: 2.5px;
+}
+
+.footer-text-article {
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    right: 7.2%;
+    top: 7.5em;
+    width: 26%;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.contact-footer-article {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    position: relative;
+    right: 13%;
+    top: -1.2em;
+    display: inline-block;
+}
+
+.one-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -29.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.two-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -3.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.three-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -29.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.four-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -3.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.five-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -27.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.six-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -2.4em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.seven-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -29.5em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.eight-recent-collapsee {
+    background-color: #101010;
+    color: whitesmoke;
+    position: absolute;
+    right: 135%;
+    bottom: -3em;
+    width: 348%;
+    height: 49.4em;
+    border: 1px solid rgba(235, 233, 233, 0.426);
+    box-shadow: 0 0 20px whitesmoke;
+}
+
+.container-two-aboutt {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.50em;
+    position: absolute;
+    top: 5em;
+    left: 17%;
+    width: 40%;
+    color: whitesmoke;
+    text-shadow: 0 0 20px whitesmoke;
+}
+
+.container-one-headd {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 17%;
+    top: 2.5em;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container-one-headd a {
+    text-decoration: none;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb805;
+}
+
+.container-one-headd:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.container-two-textt {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: whitesmoke;
+    position: absolute;
+    left: 17%;
+    top: 23em;
+    width: 31%;
+}
+
+.footer-textprs {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: absolute;
+    right: 63.1%;
+    top: 207.5em;
+    width: 26%;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.footer-textprss {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: absolute;
+    right: 63.1%;
+    top: 215.8em;
+    width: 26%;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.footer-textprasd {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: absolute;
+    right: 63.1%;
+    top: 180.9em;
+    width: 26%;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}

@@ -1,0 +1,2382 @@
+/* CONTAINER ONE MAIN CAROUSEL  */
+.container-one-about {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.50em;
+    position: absolute;
+    top: 5em;
+    left: 10%;
+    color: whitesmoke;
+    transition: 1s;
+    text-shadow: 0 0 20px whitesmoke;
+}
+
+.container-one-about:hover {
+    position: absolute;
+    left: 15%;
+}
+
+.container-one-head {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 9.5%;
+    top: 2.5em;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container-one-head a {
+    text-decoration: none;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb805;
+}
+
+.container-one-head:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.container-one-text {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: whitesmoke;
+    position: absolute;
+    left: 10%;
+    top: 23em;
+    width: 31%;
+}
+
+/* CONTAINER TWO MAIN CAROUSEL  */
+.container-two-about {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.50em;
+    position: absolute;
+    top: 5em;
+    left: 10%;
+    color: whitesmoke;
+    text-shadow: 0 0 20px whitesmoke;
+}
+
+.container-two-about:hover {
+    position: absolute;
+    left: 15%;
+    transition: 1s;
+}
+
+.container-two-text {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: whitesmoke;
+    position: absolute;
+    left: 10%;
+    top: 23em;
+    width: 31%;
+}
+
+.container-two-texts {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: whitesmoke;
+    position: absolute;
+    left: 10%;
+    top: 23em;
+    width: 50%;
+}
+
+/* CONTAINER THREE MAIN CAROUSEL  */
+.container-three-about {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.50em;
+    position: absolute;
+    top: 5em;
+    left: 10%;
+    color: whitesmoke;
+    text-shadow: 0 0 20px whitesmoke;
+}
+
+.container-three-about:hover {
+    position: absolute;
+    left: 15%;
+    transition: 1s;
+}
+
+.container-three-head {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 9.5%;
+    top: 2.5em;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container-three-headm {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 9.5%;
+    top: 3.4em;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container-three-headm a {
+    text-decoration: none;
+    color: #ffb805;
+    text-shadow: 0 0 20px #101010;
+}
+
+.container-three-head a {
+    text-decoration: none;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb805;
+}
+
+.container-three-headm:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.container-three-text {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 7px;
+    line-height: 1.5;
+    color: whitesmoke;
+    position: absolute;
+    left: 10%;
+    top: 23em;
+    width: 31%;
+}
+
+/* MIDDLE CONTAINER */
+.middle-container {
+    background-color: #101010;
+    width: 100%;
+    height: 110em;
+    padding-top: 8em;
+}
+
+/* IMAGE ONE ADVERTISE  */
+.image-one-about img {
+    width: 70%;
+    position: relative;
+    left: 20%;
+    transition: 2s;
+}
+
+.image-one-about img:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.text-one-about {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 11%;
+    top: 3em;
+    color: #fff;
+    width: 70%;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+
+.text-one-about:hover {
+    text-shadow: 0 0 20px #fff;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+/* IMAGE TWO ADVERTISE  */
+.text-two-about {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 20%;
+    top: 8em;
+    color: #fff;
+    width: 90%;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+
+.text-two-about:hover {
+    text-shadow: 0 0 20px #fff;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.image-two-about img {
+    width: 70%;
+    position: relative;
+    left: 20%;
+    top: 6em;
+}
+
+.image-two-about img:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+
+/* IMAGE THREE ADVERTISE  */
+.image-three-about img {
+    width: 70%;
+    position: relative;
+    left: 19%;
+    top: 15em;
+}
+
+.image-three-about img:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+
+.text-three-about {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 8%;
+    top: 13.5em;
+    color: #fff;
+    width: 80%;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+
+.text-three-about:hover {
+    text-shadow: 0 0 20px #fff;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+/* FOOTER TWO */
+#footer-two {
+    background-color: #ffb805;
+    width: 100%;
+    height: 19em;
+}
+
+/* RIGHT CHOICE QUANTUM AND TIME */
+.footer-why-head {
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    width: 55%;
+    position: relative;
+    left: 10%;
+    top: 2em;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.footer-why-text {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    top: 4em;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.btn-find-about {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 0;
+    padding: 8px 30px;
+    font-weight: 600;
+    transition: 0.6s;
+    position: relative;
+    left: 18%;
+    top: 3.4em;
+}
+
+.btn-find-about a {
+    text-decoration: none;
+    color: #101010;
+}
+
+.btn-find-about a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+    
+  
+
+/* FOOTER TWO MAIN */
+.footer-about-main {
+    background-color: #101010;
+    width: 100%;
+    height: 20em;
+    position: relative;
+    top: 7em;
+}
+
+.footer-header-about {
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: -1em;
+    letter-spacing: 2.5px;
+}
+
+.footer-text-about {
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    right: 7.2%;
+    top: 7.5em;
+    width: 26%;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+/* FACEBOOK FOOTER  */
+.facebook-logo-about {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    right: 33.5%;
+    top: 11.5em;
+    border: 1px solid rgba(245, 245, 245, 0.319);
+    padding: 15px;
+    height: 42px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.facebook-logo-about:hover {
+    background-color: rgba(87, 87, 87, 0.629);
+    color: #FFF;
+}
+
+/* INSTAGRAM FOOTER  */
+.instagram-logo-about {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    right: 32%;
+    top: 11.5em;
+    border: 1px solid rgba(245, 245, 245, 0.319);
+    padding: 15px;
+    height: 42px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.instagram-logo-about:hover {
+    background-color: rgba(87, 87, 87, 0.629);
+    color: #FFF;
+}
+
+/* TWITTER FOOTER  */
+.twitter-logo-about {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    right: 30.5%;
+    top: 11.5em;
+    border: 1px solid rgba(245, 245, 245, 0.319);
+    padding: 15px;
+    height: 42px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.twitter-logo-about:hover {
+    background-color: rgba(87, 87, 87, 0.629);
+    color: #FFF;
+}
+
+/* TELEGRAM FOOTER */
+.telegram-logo-about {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    right: 29%;
+    top: 11.5em;
+    border: 1px solid rgba(245, 245, 245, 0.319);
+    padding: 15px;
+    height: 42px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.telegram-logo-about:hover {
+    background-color: rgba(87, 87, 87, 0.629);
+    color: #FFF;
+}
+
+/* TIKTOK FOOTER  */
+.tiktok-logo-about {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    right: 27.5%;
+    top: 11.5em;
+    border: 1px solid rgba(245, 245, 245, 0.319);
+    padding: 15px;
+    height: 42px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.tiktok-logo-about:hover {
+    background-color: rgba(87, 87, 87, 0.629);
+    color: #FFF;
+}
+
+/* CONTACT US FOOTER  */
+.contact-footer-about {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    position: relative;
+    right: 13%;
+    top: -1.2em;
+    display: inline-block;
+}
+
+.location-footer-about {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    position: relative;
+    right: 20.7%;
+    top: 1.3em;
+    display: inline-block;
+}
+
+.email-footer-about {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    position: relative;
+    left: 47.5%;
+    top: 0.5em;
+    display: inline-block;
+}
+
+.footer-number-about {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    top: 2.7em;
+    left: 33.8%;
+    line-height: 1.5;
+}
+
+.footer-number-two-about {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    top: 5em;
+    left: 24%;
+    line-height: 1.5;
+}
+
+.footer-number-three-about {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    top: 7.5em;
+    left: 14.4%;
+    line-height: 1.5;
+}
+
+.connect-head-about {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    left: 56.5em;
+    bottom: 5.5em;
+}
+
+.connect-us-about {
+    width: 20%;
+    border-radius: 0;
+    background-color: #101010;
+    border: none;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    left: 65.8em;
+    bottom: 5.6em;
+    color: #FFF;
+}
+
+.connect-us-about:hover {
+    background-color: #101010;
+    border-color: #101010;
+    border: none;
+    color: #fff;
+}
+
+::placeholder {
+    color: #FFF;
+    opacity: 1;
+}
+
+.underline-about {
+    color: #FFF;
+    font-size: 20px;
+    position: relative;
+    left: 76%;
+    bottom: 5.5em;
+}
+
+.subscribe-about {
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    width: 14.5%;
+    border-radius: 0;
+    position: relative;
+    left: 60.8em;
+    bottom: 4em;
+}
+
+
+
+/* *********************************************        PROMOS      PRODUCTS           ***************************************************** */
+#promo-face-section {
+    width: 100%;
+    height: 77em;
+    background-color: #101010;
+}
+
+.face-head-textu {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 70%;
+    position: relative;
+    top: 9.5em;
+    letter-spacing: 1.5px;
+}
+
+#promo-lips-section {
+    width: 100%;
+    height: 50em;
+    background-color: #101010;
+}
+
+#promo-eyes-section {
+    width: 100%;
+    height: 50em;
+    background-color: #101010;
+}
+
+/* ************************************     FIRST ITEM PROMO    *******************************  */
+.promo-first-item {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 7%;
+    top: 117em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 5;
+    transform: rotate(-25deg);
+    filter: blur(4px);
+}
+
+.promo-first-item:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+.promo-first-header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ffb805;
+    text-shadow: 0 0 20px #101010;
+    transition: 0.5s;
+    color: #101010;
+}
+
+.promo-first-header:hover {
+    letter-spacing: 3px;
+    background-color: #FFF;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb8059f;
+}
+
+.card-img-top-first-promo {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 1em;
+}
+
+.card-img-top-first-promoab {
+    width: 84%;
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    top: -0.4em;
+}
+
+.card-img-top-first-promoqwe {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: -1em;
+}
+
+.promo-first-item-body {
+    background-color: #ffb805;
+    position: absolute;
+    top: 17.6em;
+    height: 7.3em;
+    border-radius: 4px;
+    width: 16.9rem;
+    transition: 0.5s;
+}
+
+.promo-first-item-body:hover {
+    background-color: #FFF;
+    letter-spacing: 2px;
+}
+
+.promo-first-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 20%;
+    color: #101010;
+}
+
+.promo-first-desc {
+    position: absolute;
+    bottom: -2.5em;
+    left: 95%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.btn-promo {
+    position: relative;
+    right: -12%;
+    bottom: 1em;
+}
+
+.discount-onepromo-face {
+    height: 5em;
+    width: 5em;
+    background-color: rgb(232, 227, 227);
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    top: 123.6em;
+    border-radius: 50%;
+    border: 4px solid #ffb805;
+    z-index: 6;
+}
+
+.discount-text-onepromo-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    top: 15px;
+    color: #000;
+}
+
+
+/* ************************************     SECOND ITEM PROMO    *******************************  */
+.promo-second-item {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 41%;
+    top: 110em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 4;
+    filter: blur(4px);
+}
+
+.promo-second-item:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+.promo-second-header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ffb805;
+    text-shadow: 0 0 20px #101010;
+    transition: 0.5s;
+    color: #101010;
+}
+
+.promo-second-header:hover {
+    letter-spacing: 3px;
+    background-color: #FFF;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb8059f;
+}
+
+.card-img-top-second-promo {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 1em;
+}
+
+.card-img-top-second-promocd {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    top: -1.2em;
+}
+
+.card-img-top-second-promoasd {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    left: 1%;
+    top: -1em;
+}
+
+.promo-second-item-body {
+    background-color: #ffb805;
+    position: absolute;
+    top: 17.6em;
+    height: 7.3em;
+    border-radius: 4px;
+    width: 16.9rem;
+    transition: 0.5s;
+}
+
+.promo-second-item-body:hover {
+    background-color: #FFF;
+    letter-spacing: 2px;
+}
+
+.promo-second-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 20%;
+    color: #101010;
+}
+
+.promo-second-desc {
+    position: absolute;
+    bottom: -2.5em;
+    left: 95%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.promo-second-desccc {
+    position: absolute;
+    bottom: -27em;
+    left: -25%;
+    width: 150%;
+    height: 26.5em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.btn-promo {
+    position: relative;
+    right: -12%;
+    bottom: 1em;
+}
+
+.discount-twopromo-face {
+    height: 5em;
+    width: 5em;
+    background-color: rgb(232, 227, 227);
+    display: inline-block;
+    position: absolute;
+    left: 47.3%;
+    top: 103.6em;
+    border-radius: 50%;
+    border: 4px solid #ffb805;
+    z-index: 6;
+}
+
+.discount-text-twopromo-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    top: 15px;
+    color: #000;
+}
+
+/* ************************************     THIRD ITEM PROMO    *******************************  */
+.promo-third-item {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    right: 7%;
+    top: 117em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 4;
+    transform: rotate(25deg);
+    filter: blur(4px);
+   
+}
+
+.promo-third-item:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+.promo-third-header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ffb805;
+    text-shadow: 0 0 20px #101010;
+    transition: 0.5s;
+    color: #101010;
+}
+
+.promo-third-header:hover {
+    letter-spacing: 3px;
+    background-color: #FFF;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb8059f;
+}
+
+.card-img-top-third-promo {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 1em;
+}
+
+.card-img-top-third-promoef {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: -1em;
+}
+
+.card-img-top-third-promozxc {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: -1em;
+}
+
+.promo-third-item-body {
+    background-color: #ffb805;
+    position: absolute;
+    top: 17.6em;
+    height: 7.3em;
+    border-radius: 4px;
+    width: 16.9rem;
+    transition: 0.5s;
+}
+
+.promo-third-item-body:hover {
+    background-color: #FFF;
+    letter-spacing: 2px;
+}
+
+.promo-third-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 20%;
+    color: #101010;
+}
+
+.promo-third-desccc {
+    position: absolute;
+    bottom: -2.5em;
+    left: -110%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.btn-promo {
+    position: relative;
+    right: -12%;
+    bottom: 1em;
+}
+
+.discount-threepromo-face {
+    height: 5em;
+    width: 5em;
+    background-color: rgb(232, 227, 227);
+    display: inline-block;
+    position: absolute;
+    left: 92%;
+    top: 123.6em;
+    border-radius: 50%;
+    border: 4px solid #ffb805;
+    z-index: 6;
+}
+
+.discount-text-threepromo-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    top: 15px;
+    color: #000;
+}
+
+/* ************************************     FOURTH ITEM PROMO    *******************************  */
+.promo-fourth-item {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 23.5%;
+    top: 147em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 3;
+    transform: rotate(10deg);
+    filter: blur(4px);
+   
+}
+
+.promo-fourth-item:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+.promo-fourth-header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ffb805;
+    text-shadow: 0 0 20px #101010;
+    transition: 0.5s;
+    color: #101010;
+}
+
+.promo-fourth-header:hover {
+    letter-spacing: 3px;
+    background-color: #FFF;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb8059f;
+}
+
+.card-img-top-fourth-promo {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 1em;
+}
+
+.card-img-top-fourth-promogh {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    left: 1%;
+    top: -1em;
+}
+
+.promo-fourth-item-body {
+    background-color: #ffb805;
+    position: absolute;
+    top: 17.6em;
+    height: 7.3em;
+    border-radius: 4px;
+    width: 16.9rem;
+    transition: 0.5s;
+}
+
+.promo-fourth-item-body:hover {
+    background-color: #FFF;
+    letter-spacing: 2px;
+}
+
+.promo-fourth-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 20%;
+    color: #101010;
+}
+
+.promo-fourth-desc {
+    position: absolute;
+    bottom: -2.5em;
+    left: 95%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.promo-fourth-desccc {
+    position: absolute;
+    bottom: -7em;
+    left: -102%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.btn-promo {
+    position: relative;
+    right: -12%;
+    bottom: 1em;
+}
+
+/* ************************************    FIFTH ITEM PROMO    *******************************  */
+.promo-fifth-item {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    right: 23.5%;
+    top: 147em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 3;
+    transform: rotate(-10deg);
+    filter: blur(4px);
+}
+
+.promo-fifth-item:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+.promo-fifth-header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ffb805;
+    text-shadow: 0 0 20px #101010;
+    transition: 0.5s;
+    color: #101010;
+}
+
+.promo-fifth-header:hover {
+    letter-spacing: 3px;
+    background-color: #FFF;
+    color: #ffb805;
+    text-shadow: 0 0 20px #ffb8059f;
+}
+
+.card-img-top-fifth-promo {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 1em;
+}
+
+.card-img-top-fifth-promoij {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: -1.3em;
+}
+
+.promo-fifth-item-body {
+    background-color: #ffb805;
+    position: absolute;
+    top: 17.6em;
+    height: 7.3em;
+    border-radius: 4px;
+    width: 16.9rem;
+    transition: 0.5s;
+}
+
+.promo-fifth-item-body:hover {
+    background-color: #FFF;
+    letter-spacing: 2px;
+}
+
+.promo-fifth-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 20%;
+    color: #101010;
+}
+
+.promo-fifth-desc {
+    position: absolute;
+    bottom: -2.5em;
+    left: 95%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.promo-fifth-desccc {
+    position: absolute;
+    bottom: -7em;
+    left: 95%;
+    width: 110%;
+    height: 30em;
+    z-index: 4;
+    box-shadow: 0 0 20px #101010;
+}
+
+.btn-promo {
+    position: relative;
+    right: -12%;
+    bottom: 1em;
+}
+
+
+/* ************************************     FIRST ITEM PROMO   EYES  *******************************  */
+.promo-first-itemE {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 7%;
+    top: 213em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 5;
+    transform: rotate(-25deg);
+    filter: blur(4px);
+}
+
+.promo-first-itemE:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+/* ************************************     SECOND ITEM PROMO   EYES *******************************  */
+.promo-second-itemY {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 41%;
+    top: 205em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 4;
+    filter: blur(4px);
+}
+
+.promo-second-itemY:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+/* ************************************     THIRD ITEM PROMO    EYES *******************************  */
+.promo-third-itemQ {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    right: 7%;
+    top: 213em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 4;
+    transform: rotate(25deg);
+    filter: blur(4px);
+}
+
+.promo-third-itemQ:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+
+
+
+/* ************************************     FIRST ITEM PROMO   LIPS  *******************************  */
+.promo-first-item-lipsone {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 7%;
+    top: 283em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 5;
+    transform: rotate(-25deg);
+    filter: blur(4px);
+}
+
+.promo-first-item-lipsone:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+/* ************************************     SECOND ITEM PROMO   LIPS *******************************  */
+.promo-second-item-lipstwo {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    left: 41%;
+    top: 277em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 4;
+    filter: blur(4px);
+}
+
+.promo-second-item-lipstwo:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+/* ************************************     THIRD ITEM PROMO    LIPS *******************************  */
+.promo-third-item-lipsthree {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    display: inline-block;
+    right: 7%;
+    top: 283em;
+    background-color: rgb(232, 227, 227);
+    transition: 0.5s;
+    z-index: 4;
+    transform: rotate(25deg);
+    filter: blur(4px);
+}
+
+.promo-third-item-lipsthree:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    filter: blur(0);
+    transition: 1s;
+}
+
+
+
+/* **********************************       FOOTER OF PROMOS PAGES      ****************************************** */
+#nonepromo{
+    width: 100%;
+    height: 15em;
+    background-color: #ffb805;
+}
+
+#footerpromoss {
+    width: 100%;
+    height: 20em;
+    background-color: #101010;
+}
+
+.footer-textpr {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    display: inline-block;
+    position: absolute;
+    right: 63.1%;
+    top: 340em;
+    width: 26%;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.notcurrent {
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 2em;
+}
+
+.currenttextt {
+    color: rgb(48, 46, 46); 
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 10.2%;
+    top: 4em;
+    line-height: 2;
+    display: inline-block;
+    width: 50%;
+}
+
+.btn-faborit {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0;
+    transition: 0.8s;
+    position: relative;
+    top: 3.7em;
+    left: 30%;
+    padding: 1em 2em;
+}
+
+.btn-faborit a {
+    text-decoration: none;
+    color: #101010;
+}
+
+.btn-faborit a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************************  GALLERIES OF QUANTUM AND TIME   ******************************************* */
+#main-tion {
+    background-color: #101010;
+    width: 100%;
+    height: 170em;
+}
+
+.headAllphoto {
+    width: 100%;
+    background-color: #101010;
+    display: inline-block;
+    position: relative;
+    top: 6em;
+    border: 0;
+}
+
+.ihoneulo {
+    border: 0;
+    background-color: #101010;
+}
+
+.btn-ihoneulo {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 7em;
+    letter-spacing: 2px;
+}
+
+.btn-ihoneulo:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn-ihoneulo::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ffb805;
+    display: block;
+    transition: 0.5s;
+}
+
+.btn-ihoneulo:hover::after {
+    width: 100%;
+}
+
+/* ------------------------------------------------- FIRST IMG */
+.ones {
+    position: absolute;
+    width: 20%;
+    left: 10.8%;
+    top: 10em;
+}
+
+.oness {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.oness-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ones:hover .oness {
+    opacity: 0.3;
+}
+  
+.ones:hover .oness-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* -------------------------------------- SECOND IMG */
+.twos {
+    position: absolute;
+    width: 20%;
+    top: 10em;
+    left: 40%;
+}
+
+.twoss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.twoss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.twos:hover .twoss {
+    opacity: 0.3;
+}
+  
+.twos:hover .twoss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* -------------------------------------- THIRD IMG */
+.threes {
+    position: absolute;
+    width: 20%;
+    left: 69%;
+    top: 10em;
+}
+
+.threess {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.threess-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.threes:hover .threess {
+    opacity: 0.3;
+}
+  
+.threes:hover .threess-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- FOURTH IMG */
+.fours {
+    position: absolute;
+    width: 20%;
+    top: 36em;
+    left: 10.8%;
+}
+
+.fourss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.fourss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fours:hover .fourss {
+    opacity: 0.3;
+}
+  
+.fours:hover .fourss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- FIFTH IMG */
+.fives {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 36em;
+}
+
+.fivess {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.fivess-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fives:hover .fivess {
+    opacity: 0.3;
+}
+  
+.fives:hover .fivess-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* -------------------------------------- six IMG */
+.sixs {
+    position: absolute;
+    width: 20%;
+    left: 69%;
+    top: 36em;
+}
+
+.sixss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.sixss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sixs:hover .sixss {
+    opacity: 0.3;
+}
+  
+.sixs:hover .sixss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- SEVEN IMG */
+.sevens {
+    position: absolute;
+    width: 20%;
+    top: 62em;
+    left: 10.8%;
+}
+
+.sevenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.sevenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sevens:hover .sevenss {
+    opacity: 0.3;
+}
+  
+.sevens:hover .sevenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- EIGHT IMG */
+.eights {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 62em;
+}
+
+.eightss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.eightss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.eights:hover .eightss {
+    opacity: 0.3;
+}
+  
+.eights:hover .eightss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* ------------------------------------------------- NINE IMG */
+.nines {
+    position: absolute;
+    width: 20%;
+    left: 69%;
+    top: 62em;
+}
+
+.niness {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.niness-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nines:hover .niness {
+    opacity: 0.3;
+}
+  
+.nines:hover .niness-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- ten IMG */
+.tens {
+    position: absolute;
+    width: 20%;
+    top: 88em;
+    left: 10.8%;
+}
+
+.tenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.tenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tens:hover .tenss {
+    opacity: 0.3;
+}
+  
+.tens:hover .tenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- eleven IMG */
+.elevens {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 88em;
+}
+
+.elevenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.elevenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.elevens:hover .elevenss {
+    opacity: 0.3;
+}
+  
+.elevens:hover .elevenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* ------------------------------------------------- twelve IMG */
+.twelves {
+    position: absolute;
+    width: 20%;
+    left: 69%;
+    top: 88em;
+}
+
+.twelvess {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.twelvess-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.twelves:hover .twelvess {
+    opacity: 0.3;
+}
+  
+.twelves:hover .twelvess-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- thirteen IMG */
+.thirteens {
+    position: absolute;
+    width: 20%;
+    top: 114em;
+    left: 10.8%;
+}
+
+.thirteenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.thirteenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.thirteens:hover .thirteenss {
+    opacity: 0.3;
+}
+  
+.thirteens:hover .thirteenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- fourteen IMG */
+.fourteens {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 114em;
+}
+
+.fourteenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.fourteenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fourteens:hover .fourteenss {
+    opacity: 0.3;
+}
+  
+.fourteens:hover .fourteenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* ------------------------------------------------- fifteen IMG */
+.fifteens {
+    position: absolute;
+    width: 20%;
+    left: 69%;
+    top: 114em;
+}
+
+.fifteenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.fifteenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fifteens:hover .fifteenss {
+    opacity: 0.3;
+}
+  
+.fifteens:hover .fifteenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+/* ------------------------------------------------- sixteen IMG */
+.sixteens {
+    position: absolute;
+    width: 20%;
+    top: 140em;
+    left: 10.8%;
+}
+
+.sixteenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.sixteenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sixteens:hover .sixteenss {
+    opacity: 0.3;
+}
+  
+.sixteens:hover .sixteenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* ------------------------------------------------- seventeen IMG */
+.seventeens {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 140em;
+}
+
+.seventeenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.seventeenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.seventeens:hover .seventeenss {
+    opacity: 0.3;
+}
+  
+.seventeens:hover .seventeenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+/* ------------------------------------------------- eighteen IMG */
+.eighteens {
+    position: absolute;
+    width: 20%;
+    left: 69%;
+    top: 140em;
+}
+
+.eighteenss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.eighteenss-name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.eighteens:hover .eighteenss {
+    opacity: 0.3;
+}
+  
+.eighteens:hover .eighteenss-name {
+    opacity: 1;
+}
+
+.namey {
+    color: rgba(245, 245, 245, 0.312);
+    font-size: 16px;
+    font-weight: 600;
+    width: 18em;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}

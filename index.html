@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum and Time</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d870978cd1.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap & CSS & Favicon  -->
+    <link rel="shortcut icon" href="qt-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles-one.css">
+    <!-- Javascript & JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Title Container (Navigation, Brand, Hamburger, Dropdown) -->
+    <section id="title-container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="./index.html"><img src="images/main-container/logo-main.png" alt=""></a>
+            <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item home">
+                        <a class="nav-link home-us" href="./index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle ml-auto" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./about-us.html">ABOUT US</a>
+                            <a class="dropdown-item" href="./articles.html">ARTICLES</a>
+                            <a class="dropdown-item" href="./our-team.html">OUR TEAM</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galleries.html">GALLERIES</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SHOP
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./products.html">PRODUCTS</a>
+                            <a class="dropdown-item" href="./promos.html">PROMOS</a>
+                            <a class="dropdown-item" href="./package.html">PACKAGE DEALS</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Main Container (Pictures, Header Text, Button, Header Sub-Text, Carousel) -->
+    <section id="main-container">
+    
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="main-head">QUANTUM AND TIME</h1>
+                <h2 class="img-one-feature">Featuring</h2>
+                <h1 class="img-one-head"><a href="#">The Best Cosmetic Ever</a></h1>
+                <p class="img-one-text">We create an innovative cosmetics product that can assist our customers in achieving their brightest skin and feeling more confident in their appearance.</p>
+                <img class="d-block w-100 img-one" src="images/main-container/fist-img.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="main-head">QUANTUM AND TIME</h1>
+                <h2 class="img-one-feature">Featuring</h2>
+                <h1 class="img-two-head"><a href="#">Be Your Own Kind Of Beautiful</a></h1>
+                <p class="img-two-text">Our cosmetics company can answer your questions and thoughts about being confident, attractive, seductress, and many more.</p>
+                <a href="./products.html"><button type="button" class="btn btn-outline-warning main-two" style="--clr:#ffb805">SHOP NOW</button></a>
+                <img class="d-block w-100" src="images/main-container/second-img.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="main-head">QUANTUM AND TIME</h1>
+                <h2 class="img-one-feature">Featuring</h2>
+                <h1 class="img-three-head"><a href="#">Change The World By Your<br>Beauty</a></h1>
+                <p class="img-three-text">Quantum and Time cosmetics company once said “The best cosmetics you can wear or use is glowing healthy skin.” </p>
+                <img class="d-block w-100" src="images/main-container/third-img.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="main-head">QUANTUM AND TIME</h1>
+                <h2 class="img-one-feature">Featuring</h2>
+                <h1 class="img-four-head"><a href="#">Products That Glow As<br>Much As You Do</a></h1>
+                <a href="./package.html"><button type="button" class="btn btn-outline-warning main-four" style="--clr:#ffb805">SHOP NOW</button></a>
+                <img class="d-block w-100" src="images/main-container/fourth-img.png" alt="Fourth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+    
+    <!-- Newest Arrival Products Container -->
+    <section id="newest-arrival-products">
+      <div class="container-fluid newest-product">
+        <h1 class="newest-prod-head">NEWEST ARRIVAL</h1>
+        <p class="newest-prod-text">The latest Quantum and Time cosmetics products are sure to enhance your natural beauty and leave you feeling radiant and confident. They are designed to nourish and protect your skin.</p>
+        <div class="row">
+          <div class="new-prod col-lg">
+            <div class="card new-item-one">
+              <div class="card-header new-item-one-header">
+                CONTOUR
+              </div>
+              <img class="card-img-top-one" src="images/Newest-Product/Newest-Product-One.png" alt="">
+              <div class="card-body new-item-one-body">
+                <h5 class="card-title new-item-one-title">Quantum and Time</h5>
+
+                <p>
+                  <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#contour-new-arrival" aria-expanded="false" aria-controls="contour-new-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                </p>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="contour-new-arrival">
+                      <div class="card card-body contour-new">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Shade: Espresso</span>
+                        <span class="formulation-contour">Formulation: Cream To Powder, Stick</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">A matte contour stick in a range of shades for all skin tones. The buildable cream-to-powder long-wear formula is lightweight and blendable.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">Magnets often use nonrenewable resources, so we’re phasing out of them in our Match Stix collection to help lower our environmental impact. Everything else you know and love about the formula and packaging is the same.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">To use a matte contour stick, apply the stick directly to the areas of your face that you want to contour, such as the hollows of your cheeks or the sides of your nose. Use a blending brush to blend the product into your skin, making sure to blend out any harsh lines or edges. Also use a setting powder to help the contour stick stay in place and give it a matte finish.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+            
+        <div class="row">
+          <div class="new-prod col-lg">
+            <div class="card new-item-two">
+              <div class="card-header new-item-two-header">
+                MASCARA
+              </div>
+              <img class="card-img-top-two" src="images/Newest-Product/Newest-Product-Two.png" alt="">
+              <div class="card-body new-item-two-body">
+                <h5 class="card-title new-item-two-title">Quantum and Time</h5>
+
+                <p>
+                  <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#mascara-new-arrival" aria-expanded="false" aria-controls="mascara-new-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                </p>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="mascara-new-arrival">
+                      <div class="card card-body mascara-new">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Benefits: Long-wearing, Waterproof</span>
+                        <span class="formulation-contour">Formulation: Lengthen, Volumize</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">A ultra volume-boosting mascara with fiber-enriched formula for multidimensional and voluminous lashes.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">This high-intensity volumising mascara features nourishing organic Shea Butter, Cacao Seed Butter and Olive Oil. The Talc-free formula with Floral Leaf-shaped fibres provide dramatic length and extreme buildable volume without weighing the lashes down or clumping. The innovative Triple Proof Complex delivers long-lasting waterproof wear without smudging in a sheen-free intense matte finish.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">Apply mascara from the base of your lashes and sweep the wand outward and upward from root to tip until desired intensity is achieved. Use with an eyelash curler for even more dramatic results.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+            
+        <div class="row">
+          <div class="new-prod col-lg">
+            <div class="card new-item-three">
+              <div class="card-header new-item-three-header">
+                LIPSTICK
+              </div>
+              <img class="card-img-top-three" src="images/Newest-Product/Newest-Product-Three.png" alt="">
+              <div class="card-body new-item-three-body">
+                <h5 class="card-title new-item-three-title">Quantum and Time</h5>
+
+                <p>
+                  <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#lipstick-new-arrival" aria-expanded="false" aria-controls="lipstick-new-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                </p>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="lipstick-new-arrival">
+                      <div class="card card-body lipstick-new">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Shade: Vendetta</span>
+                        <span class="formulation-contour">Formulation and Benetifts: Stick, Hydrating</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">A richly pigmented lipstick that adorns lips in a lightweight veil of opaque colour for a modern, matte finish.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">This luxurious lipstick features highly pigmented, creamy formula that delivers bold, glamourous color with every swipe. Packaged in a sleek black case with a surrealist golden lip design, each shade is a collectible masterpiece. The formula is enriched with hydrating ingredients and optical diffusers that smooth out imperfections, while its blend of polymers and spherical particles ensure a creamy, smooth texture. The lipstick provides rich, matte coverage that lasts all day.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">Use an exfoliant to create a smooth canvas, then gently neutralize natural lip color with a touch of concealer. After applying lipstick, gently pull a tissue apart so you end up with two thin sheets.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+            
+        <div class="row">
+          <div class="new-prod col-lg">
+            <div class="card new-item-four">
+              <div class="card-header new-item-four-header">
+                EYE PALETTE
+              </div>
+              <img class="card-img-top-four" src="images/Newest-Product/Newest-Product-Four.png" alt="">
+              <div class="card-body new-item-four-body">
+                <h5 class="card-title new-item-four-title">Quantum and Time</h5>
+                
+                <p>
+                  <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#palette-new-arrival" aria-expanded="false" aria-controls="palette-new-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                </p>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="palette-new-arrival">
+                      <div class="card card-body palette-new">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Shade: Dusk</span>
+                        <span class="formulation-contour">Formulation: Pressed Powder</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">An eyeshadow palette that showcases an assortment of complexion-complementary neutral eyeshadows inspired by the moments of sunlight adorning a flower garden.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">This eyeshadow palette features buildable, non-creasing formulas with plant-based skin-loving ingredients blends seamlessly to create effortless looks for day to night. The palette is designed in eco-conscious recycled plastic packaging. which has proven skin conditioning properties known to help protect the skin and provide long-lasting benefits to promote healthy-looking skin.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">Apply the eyeshadows onto the eyelids using a brush or fingers. Mix and blend the colours and textures to customize your look.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="new-prod col-lg">
+            <div class="card new-item-five">
+              <div class="card-header new-item-five-header">
+                FOUNDATION
+              </div>
+              <img class="card-img-top-five" src="images/Newest-Product/Newest-Product-Five.png" alt="">
+              <div class="card-body new-item-five-body">
+                <h5 class="card-title new-item-five-title">Quantum and Time</h5>
+               
+                <p>
+                  <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#foundation-new-arrival" aria-expanded="false" aria-controls="foundation-new-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                </p>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="foundation-new-arrival">
+                      <div class="card card-body foundation-new">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Skin Type: Dry, Normal, Oily</span>
+                        <span class="formulation-contour">Formulation: Liquid</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">A soft matte, longwear foundation with climate-adaptive technology to fight to heat, sweat and shine—available in 50 shades.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">This buildable, medium to full coverage foundation gives skin an instantly smooth, pore-diffused, shine-free finish. After doing extensive consumer testing and rigorous research, we refreshed our shade range to give y’all the most inclusive 50 shades yet.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">For the best results, start by moisturizing your skin with Fenty Skin Hydra Vizor SPF 15 Moisturizer and then apply Pro Filt'r Instant Retouch Primer to smooth out pores and reduce shine before applying foundation, especially if your skin is dry. Always shake before use to activate.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="vertical-one"></div>
+    <div class="vertical-two"></div>
+
+    <section class="promotional-vid">
+      <div class="card promo-vid">
+        <iframe class="vid-size" width="600" height="310" src="https://www.youtube.com/embed/RRU-OiHHijA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="latest-prod-sales">
+        <div class="container-fluid">
+          <h1 class="latest-sales-header">PRODUCT DEALS</h1>
+          <h2 class="contour">FACE MAKEUP</h2>
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-item-one">
+                <div class="card-header sale-item-one-header">
+                  CONCEALER 
+                </div>
+                <img class="card-img-top-one-sale" src="images/Product-Deals/Face-Makeup/Nars-Concealer.png" alt="">
+                <div class="card-body sale-item-one-body">
+                  <h5 class="card-title sale-item-one-title">NARS</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#concealer-deals-arrival" aria-expanded="false" aria-controls="concealer-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="concealer-deals-arrival">
+                        <div class="card card-body concealer-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Shade: Cannelle</span>
+                        <span class="formulation-contour">Formulation: Radiant Finish, Lasts All Day</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">NARS Concealer is a high-coverage, creamy concealer that helps to conceal and correct imperfections, dark circles, and uneven skin tone. It is formulated with light-diffusing technology and skin-loving ingredients, such as hyaluronic acid, to hydrate and nourish the skin while providing a natural, radiant finish.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">The concealer is available in a range of shades to match a variety of skin tones and undertones, and can be used to conceal blemishes, dark circles, and redness.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">Can be applied directly from the applicator, with fingertips or blending brush. As a highlighter, select 1-3 shades lighter than the concealer shade and place on high points of the face.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-one"><span class="discount-text-one">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-item-two">
+                <div class="card-header sale-item-two-header">
+                  BB CREAM
+                </div>
+                <img class="card-img-top-two-sale" src="images/Product-Deals/Face-Makeup/Covergirl-BB-Cream.png" alt="">
+                <div class="card-body sale-item-two-body">
+                  <h5 class="card-title sale-item-two-title">COVERGIRL</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#cream-deals-arrival" aria-expanded="false" aria-controls="cream-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="cream-deals-arrival">
+                        <div class="card card-body cream-deals">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Benefits: Can Be Used As A Moisturizer, Primer, And Foundation.</span>
+                        <span class="formulation-contour"></span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">It is designed to provide light to medium coverage and a natural, luminous finish while also nourishing and hydrating the skin. Typically contain a range of beneficial ingredients, such as antioxidants, sunscreens, and skin-loving oils, to help improve the appearance and health of the skin over time.</span>
+                        <span class="what-does-contourr">What it does:</span>
+                        <span class="text-contour-twoo">CoverGirl's BB Cream is formulated with a blend of antioxidants and vitamins to help protect and nourish the skin, and is available in a range of shades to match a variety of skin tones and undertones.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-two"><span class="discount-text-two">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-item-three">
+                <div class="card-header sale-item-three-header">
+                  HIGHLIGHTER
+                </div>
+                <img class="card-img-top-three-sale" src="images/Product-Deals/Face-Makeup/Milani-Liquid-Highlighter.png" alt="">
+                <div class="card-body sale-item-three-body">
+                  <h5 class="card-title sale-item-three-title">MILANI</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#high-deals-arrival" aria-expanded="false" aria-controls="high-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="high-deals-arrival">
+                        <div class="card card-body high-deals">
+                        <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Benefits: Illumination, Contouring, Versatility, Long Lasting</span>
+                        <span class="formulation-contour"></span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">Milani highlighter adds a luminous, glowing effect to the skin by highlighting and enhancing certain facial features, available in various shades and finishes.</span>
+                        <span class="what-does-contourr">What it does:</span>
+                        <span class="text-contour-twoo">Enhance the skin with a radiant, glowing effect, and can be used alone or on top of makeup. They often contain skin-loving ingredients and are long-lasting to stay in place all day.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-three"><span class="discount-text-three">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-item-four">
+                <div class="card-header sale-item-four-header">
+                  FACE PRIMER
+                </div>
+                <img class="card-img-top-four-sale" src="images/Product-Deals/Face-Makeup/The-Pore-Professional-Face-Primer.png" alt="">
+                <div class="card-body sale-item-four-body">
+                  <h5 class="card-title sale-item-four-title">POREFESSIONAL</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#primer-deals-arrival" aria-expanded="false" aria-controls="primer-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="primer-deals-arrival">
+                        <div class="card card-body primer-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Skin Type: Normal, Oily, Dry</span>
+                          <span class="formulation-contour">Formulation: Fill Pores, Smoothen, Minimise Fine Lines/Wrinkles</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">a cosmetic product designed to help smooth and perfect the skin's surface, reduce the appearance of pores, and prepare the skin for makeup application. It is formulated with a blend of silicones and vitamin E to help fill in and blur the appearance of pores, and is suitable for all skin types, including oily and combination skin. </span>
+                          <span class="what-does-contour">What it does:</span>
+                          <span class="text-contour-two">This face primer instantly minimises the look of pores and fine lines and blurs imperfections for silky-soft, smoother-than-smooth skin. Plus, it helps makeup apply evenly and stay put.</span>
+                          <span class="how-use-contour">How to use it:</span>
+                          <span class="text-contour-three">Smooth all over face with fingertips. Use alone, under makeup as a primer or over makeup to touch up.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-four"><span class="discount-text-four">20%</span></div>
+
+          <h2 class="eye">EYE MAKEUP</h2>
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-two-item-one">
+                <div class="card-header sale-two-item-one-header">
+                  EYELINER
+                </div>
+                <img class="card-img-top-one-sale-two" src="images/Product-Deals/Eye-Makeup/Stila-Eye-Liner.png" alt="">
+                <div class="card-body sale-two-item-one-body">
+                  <h5 class="card-title sale-two-item-one-title">STILA</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#liner-deals-arrival" aria-expanded="false" aria-controls="liner-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="liner-deals-arrival">
+                        <div class="card card-body liner-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Benefits: Long Wearing</span>
+                          <span class="formulation-contour">Formulation: Liquid</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">used to define and enhance the eyes. It is typically applied to the waterline, lash line, or upper lid to create a variety of eye looks, including a classic cat eye or a more subtle, natural look. Stila eyeliner is available in a range of shades and finishes, such as matte, metallic, and shimmer, to suit different preferences and eye makeup looks.</span>
+                          <span class="what-does-contour">What it does:</span>
+                          <span class="text-contour-two">Intense black is black jet shade . This waterproof liquid liner has thin marker-like tip that glides on with ease, won’t smudge or run, and lasts all day long.</span>
+                          <span class="how-use-contour">How to use it:</span>
+                          <span class="text-contour-three">Shake well before application. Place the tip of the eyeliner at the center of the lash line and apply out toward the corner of the eye. Next, line from the inner corner of the eye and connect at the center.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-one-eye"><span class="discount-text-one-eye">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-two-item-two">
+                <div class="card-header sale-two-item-two-header">
+                  EYELASH DUO
+                </div>
+                <img class="card-img-top-two-sale-two" src="images/Product-Deals/Eye-Makeup/Tarte-Eye-lashes.png" alt="">
+                <div class="card-body sale-two-item-two-body">
+                  <h5 class="card-title sale-two-item-two-title">TARTE</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#lash-deals-arrival" aria-expanded="false" aria-controls="lash-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="lash-deals-arrival">
+                        <div class="card card-body lash-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Benefits: Long Lasting, Versatility, Convenience</span>
+                          <span class="formulation-contour">Formulation: Liquid</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">This set includes an ergonomic eyelash curler with easy grip handles and a purple silicone pad to curl lashes evenly, giving you bombshell lashes.</span>
+                          <span class="what-does-contourr">What it does:</span>
+                          <span class="text-contour-twoo">The curved angle and wide mouth suits all eye shapes without pinching or crimping. Unlike other eyelash curlers that require multiple squeezes, you only need one squeeze with Picture Perfect for the perfect curl. Finish off your look with tarte's lights, camera, lashes 4-in-1 mascara.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-two-eye"><span class="discount-text-two-eye">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-two-item-three">
+                <div class="card-header sale-two-item-three-header">
+                  EYE PRIMER
+                </div>
+                <img class="card-img-top-three-sale-two" src="images/Product-Deals/Eye-Makeup/Ulta-Eye-Primer.png" alt="">
+                <div class="card-body sale-two-item-three-body">
+                  <h5 class="card-title sale-two-item-three-title">ULTA</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#eye-primer-deals-arrival" aria-expanded="false" aria-controls="eye-primer-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="eye-primer-deals-arrival">
+                        <div class="card card-body eye-primer-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Benefits: Can be used with multiple eye product formulas—powders, gels, creams and loose pigments</span>
+                          <span class="formulation-contour">How To Use: Apply to upper lid with fingertips prior to eyeshadow or eyeliner application.</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">ULTA Beauty Eye Primer is a makeup product that preps the eye area for other eye makeup, helping it stay in place and prevent creasing, smudging, and fading.</span>
+                          <span class="what-does-contourr">What it does:</span>
+                          <span class="text-contour-twoo">ULTA Beauty Eye Primer is a nourishing makeup product that comes in various shades and can be worn alone or under eye makeup. It contains skin-loving ingredients like vitamins and antioxidants to protect the delicate eye area.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-three-eye"><span class="discount-text-three-eye">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-two-item-four">
+                <div class="card-header sale-two-item-four-header">
+                  EYESHADOW
+                </div>
+                <img class="card-img-top-four-sale-two" src="images/Product-Deals/Eye-Makeup/Laura-Eyeshadow.png" alt="">
+                <div class="card-body sale-two-item-four-body">
+                  <h5 class="card-title sale-two-item-four-title">LAURA</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#shadow-deals-arrival" aria-expanded="false" aria-controls="shadow-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="shadow-deals-arrival">
+                        <div class="card card-body shadow-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Shade: Amethyst</span>
+                        <span class="formulation-contour">Benefits: Even and Smooth application</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">Caviar Stick Eye Color glides seamlessly onto lids. These eyeshadows are crease, transfer and smudge resistant for long lasting, even color payoff in a variety of shades and finishes.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">The luxe, multi-use formulation allows you to easily smudge, blend, line, fill or define eyes, so you can effortlessly create any makeup look. An array of intense shades deliver endless options for alluring eyes that stand out both day and night. </span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">Pick any pigment-rich eye shadow shade in creamy shimmer, matte or chrome finish. Caviar Stick Eye Color glides seamlessly onto the lids, remaining crease, and transfer resistant.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-four-eye"><span class="discount-text-four-eye">20%</span></div>
+
+
+          <!-- -------------------------------- LIPS PRODUCT DEALS --------------------------------------------------- -->
+          <h2 class="lips">LIPS MAKEUP</h2>
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-three-item-one">
+                <div class="card-header sale-three-item-one-header">
+                  LIPSTICK
+                </div>
+                <img class="card-img-top-one-sale-three" src="images/Product-Deals/Lips-Makeup/deals-one.png" alt="">
+                <div class="card-body sale-three-item-one-body">
+                  <h5 class="card-title sale-three-item-one-title">BY TERRY</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#stick-deals-arrival" aria-expanded="false" aria-controls="stick-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="stick-deals-arrival">
+                        <div class="card card-body stick-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Shade: Chilly Cream</span>
+                          <span class="shade-contour">Benefits: Long Wearing</span>
+                          <span class="formulation-contour">Formulation: Cream, Stick</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">This hybrid lipstick combines the nourishing properties of a balm with the precision of a pencil and the intense pigmentation of a traditional lipstick. The three-in-one hybrid lipstick offers the best of all worlds, with a creamy balm-like texture, precise application, and bold, pigmented color.</span>
+                          <span class="what-does-contour">What it does:</span>
+                          <span class="text-contour-two">In just one stroke, Rouge Expert Click Stick reveals bold statement-making colour that lasts all day long. Its ergonomic drop-shaped tip instantly outlines the contour and fills the lips with absolute coverage and velvet-smooth comfort.</span>
+                          <span class="how-use-contour">How to use it:</span>
+                          <span class="text-contour-three">Simply click to offer a single dosage and apply on the lips with the tip up.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-one-lips"><span class="discount-text-one-lips">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-three-item-two">
+                <div class="card-header sale-three-item-two-header">
+                  LIP LINER
+                </div>
+                <img class="card-img-top-two-sale-three" src="images/Product-Deals/Lips-Makeup/deals-two.png" alt="">
+                <div class="card-body sale-three-item-two-body">
+                  <h5 class="card-title sale-three-item-two-title">RARE BEAUTY</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#tint-deals-arrival" aria-expanded="false" aria-controls="tint-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="tint-deals-arrival">
+                        <div class="card card-body tintt-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Benefits: Long-wearing, Waterproof</span>
+                          <span class="formulation-contour">Shade: Worthy</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">A super creamy, waterproof lip liner that glides on like a balm to define lips in the same 10 rich, made-to-match shades as Kind Words Matte Lipstick.</span>
+                          <span class="what-does-contourr">What it does:</span>
+                          <span class="text-contour-twoo">Define and shape lips with one-swipe colour and a soft matte finish. With an incredibly smooth, balm-like glide that won’t skip or tug, this waterproof liner not only stays put all day without smudging, but it keeps your lipstick in place, too. Keep the retractable tip sharp with the built-in sharpener.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-two-lips"><span class="discount-text-two-lips">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-three-item-three">
+                <div class="card-header sale-three-item-three-header">
+                  LIP GLOSS
+                </div>
+                <img class="card-img-top-three-sale-three" src="images/Product-Deals/Lips-Makeup/deals-three.png" alt="">
+                <div class="card-body sale-three-item-three-body">
+                  <h5 class="card-title sale-three-item-three-title">KOPARI</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#gloss-deals-arrival" aria-expanded="false" aria-controls="gloss-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="gloss-deals-arrival">
+                        <div class="card card-body gloss-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                          <span class="shade-contour">Benefits: Hydrating</span>
+                          <span class="formulation-contour">Shade: Clear</span>
+                          <span class="what-is-contour">What it is:</span>
+                          <span class="text-contour-one">A petroleum-free and coconut-flavoured lip treatment that isn’t sticky. Formulated without silicone, gluten, and synthetic fragrances.</span>
+                          <span class="what-does-contourr">What it does:</span>
+                          <span class="text-contour-twoo">Kopari’s cult favourite, petroleum-free lip gloss is formulated with squalane (derived from olives), shea butter, and 100 per cent organic coconut oil to leave your lips silky-soft and hydrated to perfection. This product can also be used as an eye or cheek gloss. It has the perfect slip and will love on lips all day and night.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-three-lips"><span class="discount-text-three-lips">20%</span></div>
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card sale-three-item-four">
+                <div class="card-header sale-three-item-four-header">
+                  LIP TINT
+                </div>
+                <img class="card-img-top-four-sale-three" src="images/Product-Deals/Lips-Makeup/deals-four.png" alt="">
+                <div class="card-body sale-three-item-four-body">
+                  <h5 class="card-title sale-three-item-four-title">LAURA</h5>
+                  
+                  <p>
+                    <button class="btn btn-outline-dark btn-all" type="button" data-toggle="collapse" data-target="#tinter-deals-arrival" aria-expanded="false" aria-controls="tinter-deals-arrival"><i class="fa-solid fa-eye"></i> SEE DESCRIPTION</button>
+                  </p>
+  
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="tinter-deals-arrival">
+                        <div class="card card-body tinter-deals">
+                          <span class="description-contour">DESCRIPTION</span>
+                        <span class="shade-contour">Formulation: Liquid</span>
+                        <span class="formulation-contour">Benefits: Long Wearing</span>
+                        <span class="what-is-contour">What it is:</span>
+                        <span class="text-contour-one">Benefit Cha Cha Tint is a liquid lip and cheek stain that provides a natural-looking flush of color with long-lasting wear. It's made with mango and coconut water for moisturizing and nourishing effects and comes in several shades, including "Fiesta Pink" and "Feisty Fuchsia." It's easy to apply and can be blended for a natural finish or built up for more drama.</span>
+                        <span class="what-does-contour">What it does:</span>
+                        <span class="text-contour-two">This smooch-proof, long-wearing, sheer stain beautifully blushes lips and cheeks with a mango hue. The precise lip applicator glides right on the lips and cheeks for a deliciously vibrant look that lasts for hours.</span>
+                        <span class="how-use-contour">How to use it:</span>
+                        <span class="text-contour-three">Glide onto lips, layering to build intensity. Dot and blend quickly onto the cheeks. Wear Chachatint under lip gloss for an extra pretty pout.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discount-four-lips"><span class="discount-text-four-lips">20%</span></div>
+        </div>
+    </section>
+
+    <div class="vertical-three"></div>
+    <div class="vertical-four"></div>
+
+    <section id="highlights">
+      <h1 class="highlights-text">PRESS CONFERENCE HIGHLIGHTS</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner caro-press">
+          <div class="carousel-item active caro-item-press">
+            <p class="d-block w-100 press-one">"Not to state the obvious, but Quantum and Time release of several highly anticipated products, including limited edition contour, mascara, eye palette, lipstick, and foundation."<br><br><span class="news">~Beauty MNL</span></p>
+          </div>
+          <div class="carousel-item caro-item-press">
+            <p class="d-block w-100 press-one">"Quantum and Time is expanding its beauty offerings by introducing a line of cosmetics specifically formulated for different age groups, including teenagers, adults, and seniors, to address the unique needs of each complexion."<br><br><span class="news">~Rappler</span></p>
+          </div>
+          <div class="carousel-item caro-item-press">
+            <p class="d-block w-100 press-one">"The cosmetics line from Quantum and Time maintains its focus on simple, wearable products, but with an added touch of excitement and allure that many people seek in their makeup choices."<br><br><span class="news">~Inquirer</span></p>
+          </div>
+          <div class="carousel-item caro-item-press">
+            <p class="d-block w-100 press-one">"Although it started as a simple concept, Quantum and Time's idea was innovative and revolutionary at the time. Little did we know, this marked the beginning of the company's journey to become a leading beauty brand in the country."<br><br><span class="news">~Manila Bulletin</span></p>
+          </div>
+          <div class="carousel-item caro-item-press">
+            <p class="d-block w-100 press-one">"The Quantum and Time cosmetics company announced a partnership with a well-known celebrity makeup artist, who will be the face of the brand and collaborate on the creation of future products. This partnership is expected to bring significant attention and exposure to the company and its products."<br><br><span class="news">~Washington Post</span></p>
+          </div>
+          <div class="carousel-item caro-item-press">
+            <p class="d-block w-100 press-one">"The press conference for the Quantum and Time cosmetics company was a highly anticipated event, with journalists and industry professionals eager to learn about the latest product releases. The atmosphere was electric with excitement as attendees waited to hear about the new offerings from the brand."<br><br><span class="news">~New York Daily News</span></p>
+          </div>
+        </div>
+        <a class="carousel-control-prev control-press-left" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next control-press-right" href="#carouselExampleControls" role="button"  data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="why-us">
+      <h1 class="why-us-head">Why Choose Quantum and Time?</h1>
+        <figure class="grayscale-one"><img src="images/Testimonials/Why-us-one-img.png" alt=""></figure>
+        <figure class="grayscale-two"><img src="images/Testimonials/Why-us-two-img.png" alt=""></figure>
+        <figure class="grayscale-three"><img src="images/Testimonials/Why-us-three-img.png" alt=""></figure>
+        <figure class="grayscale-four"><img src="images/Testimonials/Why-us-four-img.png" alt=""></figure>
+
+      <h2 class="gallery-awesome">AWESOME SHOTS</h2>
+      <h1 class="gallery">QUANTUM AND TIME GALLERY</h1>
+      <a href="./galleries.html"><button type="submit" class="btn  btn-outline-light btn-lg btn-gallery">VIEW ALL</button></a>
+      <figure class="celebrity-one"><img src="images/Gallery/Celebrity-one.png" alt=""></figure>
+      <figure class="celebrity-two"><img src="images/Gallery/Celebrity-two.png" alt=""></figure>
+      <figure class="celebrity-three"><img src="images/Gallery/Celebrity-three.png" alt=""></figure>
+      <figure class="celebrity-four"><img src="images/Gallery/Celebrity-four.png" alt=""></figure>
+    </section>
+
+    <section id="testimonials">
+      <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators testi-indicator">
+          <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="3"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="4"></li>
+          <li data-target="#carousel-testimonials" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner testimonial-carousel">
+          <div class="carousel-item active testimonial-item">
+            <h1 id="client-what-say">WHAT OUR CLIENTS SAY</h1>
+            <img class="d-block w-100 img-one" src="images/Testimonials/client-one.jpg" alt="First slide">
+            <p class="client-one-text">I've always been interested in the concept of time and how it affects our lives, so when I discovered Quantum and Time cosmetics, I was immediately drawn to their brand. Not only do their products use innovative ingredients inspired by the laws of physics, but they also have a beautiful, minimalistic aesthetic that I just adore. I've been using their time-release moisturizer for the past few months, and my skin has even looked better.</p>
+            <p class="client-name">Nam Joo-hyuk</p>
+            <p class="client-of">CLIENT OF QUANTUM AND TIME</p>
+          </div>
+          <div class="carousel-item testimonial-item">
+            <h1 id="client-two-what-say">WHAT OUR CLIENTS SAY</h1>
+            <img class="d-block w-100" src="images/Testimonials/client-two.jpg" alt="Second slide">
+            <p class="client-two-text">It's so hydrating and has really helped to reduce the appearance of fine lines and wrinkles. I've also been using their quantum-infused eye cream, which has made such a difference in the darkness under my eyes. Overall, I'm really impressed with Quantum and Time cosmetics and can't recommend their products enough. They truly offer something unique and special in the world of beauty.</p>
+            <p class="client-name">Dasha Taran</p>
+            <p class="client-of">CLIENT OF QUANTUM AND TIME</p>
+          </div>
+          <div class="carousel-item testimonial-item">
+            <h1 id="client-three-what-say">WHAT OUR CLIENTS SAY</h1>
+            <img class="d-block w-100" src="images/Testimonials/client-three.jpg" alt="Third slide">
+            <p class="client-three-text">I'm always on the lookout for innovative and high-quality beauty products, and that's exactly what I've found with Quantum and Time Cosmetics. Their range of skincare and makeup products have truly transformed my routine, and I've seen a noticeable difference in my skin since using them. The quantum energy serum has become a staple in my skincare routine – it leaves my skin feeling plump and hydrated, and I've noticed a reduction in fine lines and wrinkles.</p>
+            <p class="client-name">Ahn Hyo-seop</p>
+            <p class="client-of">CLIENT OF QUANTUM AND TIME</p>
+          </div>
+          <div class="carousel-item testimonial-item">
+            <h1 id="client-four-what-say">WHAT OUR CLIENTS SAY</h1>
+            <img class="d-block w-100" src="images/Testimonials/client-four.jpg" alt="Fourth slide">
+            <p class="client-four-text"> I love Quantum and Time cosmetics their products are high-quality, effective, and easy to use, which is exactly what I need in my busy schedule. My products from Quantum and Time are their daily moisturizer, which keeps my skin hydrated and healthy, and their overnight repair serum, which helps to smooth out any fine lines or wrinkles. I also love their face mask – it leaves my skin feeling refreshed and glowing.</p>
+            <p class="client-name">Taylor Swift</p>
+            <p class="client-of">CLIENT OF QUANTUM AND TIME</p>
+          </div>
+          <div class="carousel-item testimonial-item">
+            <h1 id="client-five-what-say">WHAT OUR CLIENTS SAY</h1>
+            <img class="d-block w-100" src="images/Testimonials/client-five.jpg" alt="Fifth slide">
+            <p class="client-five-text">As a busy performers, We always on the lookout for the best skincare products to keep our skin looking healthy and radiant. That's why we excited to try Quantum and Time Cosmetics – their products are made with the latest scientific advancements in skincare technology, which really sets them apart from other brands. We've been using their anti-aging serum every morning and night, and We've already noticed a difference in the texture and tone of my skin. </p>
+            <p class="client-name">Bangtan Sonyeondan</p>
+            <p class="client-of">CLIENT OF QUANTUM AND TIME</p>
+          </div>
+          <div class="carousel-item testimonial-item">
+            <h1 id="client-six-what-say">WHAT OUR CLIENTS SAY</h1>
+            <img class="d-block w-100" src="images/Testimonials/client-six.jpg" alt="Sixth slide">
+            <p class="client-six-text">I'm always on the lookout for innovative skincare products, and I was thrilled when I discovered Quantum and Time Cosmetics. As a busy actress, I don't have a lot of time to spend on my skincare routine, but Quantum and Time's products are so effective that I only need to use a few key items to see great results. Their Time Reverse Serum has become a staple in my routine – it's packed with antioxidants and helps to smooth out fine lines and wrinkles.</p>
+            <p class="client-name">Bae Suzy</p>
+            <p class="client-of">CLIENT OF QUANTUM AND TIME</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev control-testi-left" href="#carousel-testimonials" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon testi-caro-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next control-testi-right" href="#carousel-testimonials" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="articles">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg"> 
+            <h1 class="article-title-head">BLOG | ARTICLES</h1>
+            <h1 class="article-title-main">QUANTUM AND TIME ┃ BLOG</h1>
+            <div class="card article-one-card">
+              <img class="card-img-one-top" src="images/News-and-Articles/Article-one.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-date one-featured-arti">FEATURED BLOGS</h5>
+                <h3 class="card-title one-title-arti">Elizabeth Olsen "Reviews Quantum and Time Cosmetics"</h3>
+                <h6 class="footer-one">By Admin ┃ December 18, 2022 ┃ 6 Min Read</h6>
+                <p>
+                  <button class="btn btn-outline-light btn-feat-two" type="button" data-toggle="collapse" data-target="#featured-one" aria-expanded="false" aria-controls="collapseExample">
+                    Read More
+                  </button>
+                  <div class="collapse" id="featured-one">
+                    <div class="card card-body text-one-feat">
+                      Hi everyone! Today, I wanted to share my thoughts on Quantum and Time Cosmetics, a brand that I've been using for the past few months. As an actress, I'm always looking for skincare products that are effective, high-quality, and convenient to use, and Quantum and Time has definitely delivered on all counts.
+                      <br>
+                      <br>
+                      One of my favorite products from the brand is their Newest Release Contour, which is packed with antioxidants and helps to smooth out fine lines and wrinkles. I've noticed a significant improvement in the texture and appearance of my skin since I started using this product, and it's become a staple in my skincare routine.  
+                      <br>
+                      <br>
+                      Overall, I'm really impressed with the effectiveness and convenience of Quantum and Time's products, and I would highly recommend them to anyone looking for high-quality skincare solutions. If you're in the market for some new skincare products, definitely give Quantum and Time a try – I think you'll be happy with the results.
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+
+            <div class="card article-two-card">
+              <img class="card-img-two-top" src="images/News-and-Articles/Article-two.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-date two-featured-arti">FEATURED BLOGS</h5>
+                <h3 class="card-title two-title-arti">Keeping Your Winter Glow with Scarlett Johansson</h3>
+                <h6 class="footer-two">By Admin ┃ December 18, 2022 ┃ 6 Min Read</h6>
+                <p>
+                  <button class="btn btn-outline-light btn-feat-two" type="button" data-toggle="collapse" data-target="#featured-two" aria-expanded="false" aria-controls="collapseExample">
+                    Read More
+                  </button>
+                </p>
+                <div class="collapse" id="featured-two">
+                  <div class="card card-body text-two-feat">
+                    Hey everyone! Today, I wanted to share a few tips on using lipstick and contour, inspired by my favorite celebrity makeup looks. Scarlett Johansson is known for her gorgeous, radiant skin and bold lip color, and I always love seeing her red carpet beauty looks for inspiration.
+                    <br>
+                    <br>
+                    First, let's talk about lipstick. Scarlett often opts for bold, statement-making shades, like classic red or deep berry. To get the most out of your lipstick, it's important to prep your lips first by exfoliating and moisturizing. This will help the color go on smoothly and last longer. When applying your lipstick, use a lip brush for precise application and to help the color stay in the lines. You can also blot your lips with a tissue and dust a little powder over them to set the color and make it more long-lasting.
+                    <br>
+                    <br>
+                    Next, let's talk about contour. Scarlett has a beautiful, defined jawline and cheekbones, and contouring is a great way to enhance your natural features and add dimension to your face. When contouring, it's important to use the right shade for your skin tone – you want a color that's slightly darker than your natural skin tone, but not too dark or orange. Use a contour brush or beauty sponge to apply the product in a "3" shape on either side of your face – starting at your temples, down your cheekbones, and back up to your jawline. Blend the contour out well to avoid any harsh lines.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card article-three-card">
+              <img class="card-img-three-top" src="images/News-and-Articles/Article-three.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-date three-featured-arti">FEATURED BLOGS</h5>
+                <h3 class="card-title three-title-arti">A Day with Lisa Manoban "Makeup Tips and Reviews"</h3>
+                <h6 class="footer-three">By Admin ┃ December 18, 2022 ┃ 3 Min Read</h6>
+                <p>
+                  <button class="btn btn-outline-light btn-feat-three" type="button" data-toggle="collapse" data-target="#featured-three" aria-expanded="false" aria-controls="collapseExample">
+                    Read More
+                  </button>
+                </p>
+                <div class="collapse" id="featured-three">
+                  <div class="card card-body text-three-feat">
+                    Hi everyone! Today, I wanted to share with you my daily makeup routine using some of my favorite products from Quantum and Time Cosmetics. For those who don't know, I'm Lisa Manoban from Korean pop star. 
+                    <br>
+                    <br>
+                    To start off my day, I like to prime my face with Ulta Beauty Face Primer. his lightweight formula helps to hydrate and smooth out my skin, making it the perfect base for my makeup. Next, I use Quantum and Time Newest Release Liquid Foundation to even out my face tone and give me a natural, glowing finish. I find that a little goes a long way with this foundation, and it blends easily with my skin.
+                    <br>
+                    <br>
+                    Overall, I'm really happy with my makeup today and I feel like all of the products from Quantum and Time are high-quality and work well for my skin. I hope you guys enjoyed this little makeup review and maybe found some new products to try out. Thanks for reading!
+                  </div>
+                </div>
+                <a href="./articles.html"><button type="button" class="btn  btn-outline-light btn-lg btn-article">VIEW ARTICLES</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands-logo">
+      <div class="container-fluid all-brands">
+        <div class="row">
+          <div class="col-lg">
+            <figure class="nars-brand"><img src="images/Brands/nars-brand.png" alt=""></figure>
+            <figure class="fenty-brand"><img src="images/Brands/fenty-beauty-brand.png" alt=""></figure>
+            <figure class="stila-brand"><img src="images/Brands/stila-brand.png" alt=""></figure>
+            <figure class="tarte-brand"><img src="images/Brands/tarte-brand.png" alt=""></figure>
+            <figure class="ulta-brand"><img src="images/Brands/ulta-beauty-brand.png" alt=""></figure>
+            <figure class="laura-brand"><img src="images/Brands/laura-mercier-brand.png" alt=""></figure>
+            <figure class="cover-brand"><img src="images/Brands/covergirl-brand.png" alt=""></figure>
+            <figure class="milani-brand"><img src="images/Brands/Milani-brand.png" alt=""></figure>
+            <figure class="anastasia-brand"><img src="images/Brands/Anastasia-brand.png" alt=""></figure>
+            <figure class="rare-brand"><img src="images/Brands/Rare-beauty-brand.png" alt=""></figure>
+            <figure class="dahlia-brand"><img src="images/Brands/Dear-Dahlia-brand.png" alt=""></figure>
+            <figure class="lancome-brand"><img src="images/Brands/Lancome-brand.png" alt=""></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container-fluid find-only">
+        <h1 class="footer-finder">Find Only Best For You</h1>
+        <p class="footer-find-text">"Discover the cosmetics products that work best for your individual skin needs and preferences."</p>
+        <a href="./products.html"><button type="submit" class="btn  btn-outline-dark btn-lg btn-find-out">FIND OUT</button></a>
+      </div>
+
+      <div class="container-fluid footer-main">
+        <h1 class="footer-header">QUANTUM AND TIME</h1>
+        <p class="footer-text">We offer a wide range of products for different skin concerns, so you can find something that's tailored to your specific needs.</p>
+        <a class="facebook-logo" href="https://www.facebook.com/profile.php?id=100089021053212" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="instagram-logo" href="https://www.instagram.com/Quantum_and_Time/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="twitter-logo" href="https://twitter.com/InvaliddNameeee" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a class="telegram-logo" href="https://t.me/Quantum_and_Time" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>
+        <a class="tiktok-logo" href="https://tiktok.com/@quantum_and_time" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+
+        <h1 class="contact-footer">Contact Us</h1>
+        <p class="location-footerq">Forbes Park St., Bonifacio Global City</p>
+        <p class="email-footerq">QT_Company@mail.com</p>
+        <p class="footer-numberq">(+63) 945 570 2579</p>
+        <p class="footer-number-twoq">(+63) 997 485 1320</p>
+        <p class="footer-number-threeq">(+63) 927 075 1552</p>
+
+        <form action="https://formsubmit.co/tajarroszedrick021@gmail.com" method="POST" name="Email-Form" target="_blank">
+          <div class="form-group">
+            <label for="exampleFormControlInput1"><h1 class="connect-head">Connect with Us</h1></label>
+            <input type="email" class="form-control connect-us" id="exampleFormControlInput1" placeholder="Your Email" name="Email" required>
+            <span class="underline">__________________________</span>
+            <button type="submit" class="btn btn-outline-light btn-lg subscribe">SUBSCRIBE</button>
+          </div>
+        </form>
+        
+        
+      </div>
+    </section>
+</body>
+
+</html>
